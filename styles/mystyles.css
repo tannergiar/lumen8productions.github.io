@@ -1,10 +1,16 @@
-
+body{
+    /*background-image: url(../img/backghroundtest3.jpg);
+        background-repeat:repeat;
+        background-size: 25%;
+        min-width: 1000px;
+  
+*/}
 .post-title{
     font-family: 'bignooduniversal''bebasneueuniversal';
     font-variant-caps: titling-caps;
 }
 .subheading1{
-    font-family: 'robotolightuniversal';
+    font-family: 'bignooduniversal';
     font-size: 12pt;
     font-weight: 50;
     text-align: center;
@@ -60,6 +66,14 @@ font-family: 'bebasneueuniversal';
     letter-spacing: 5pt;
     color: white;
 }
+.locationsheader{
+    font-family: 'bebasneueuniversal';
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    letter-spacing: 5pt;
+    color: white;
+}
 .page-jumper{
     font-family: 'bebasneueuniversal';
     font-weight: 500;
@@ -78,7 +92,25 @@ font-family: 'bebasneueuniversal';
     color: #0018aa;
     text-decoration: none;
 }
-
+.page-jumper-land{
+    font-family: 'bebasneueuniversal';
+    font-weight: 500;
+    font-size: 20pt;
+    text-align: center;
+    letter-spacing: 5pt;
+    color: white; 
+    padding: 10px;
+}
+page-jumper-main-land{
+    text-align: center;
+    background-color: 
+        rgba(150,150,150,0.0);    /* 10% opaque grey */
+    padding: 10px;
+}
+.page-jumper-land:hover{
+    color: #0018aa;
+    text-decoration: none;
+}
 .h1{
     font-family: 'bebasneueuniversal';
     font-weight: 600;
@@ -178,5 +210,18 @@ font-family: 'bebasneueuniversal';
     font-family:geosansuniversal;
     src: url(../fonts/geosanslight.ttf);
 }*/   
-    
+
+/* Media query for smaller screens */
+@media and screen (max-width: 768px) {
+  .locationsheader {
+    font-size: 10px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media and screen (max-width: 480px) {
+  .locationsheader {
+    font-size: 8px;
+  }
+}
     
